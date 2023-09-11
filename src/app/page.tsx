@@ -44,7 +44,7 @@ export default function Home() {
             </li>
             <li>
               <a
-                href="#"
+                href="#projects"
                 className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
               >
                 프로젝트들
@@ -56,8 +56,16 @@ export default function Home() {
     </nav>
     <div className="bg-green-400 box-border h-100 w-100 p-4 border-4 mt-5 text-center">
       <h1 className="mt-10 text-blue-700 font-extrabold text-9xl">키페</h1>
-      <h2 className="my-10 text-2xl font-bold">KeyFrog</h2>
-      <h3 className="my-10 text-xl font-semibold">학생 개발자</h3>
+      <h2 className="my-10 text-4xl font-bold">김도언, KeyFrog</h2>
+      <h3 className="my-10 text-3xl font-semibold">학생 개발자</h3>
+    </div>
+    <div className="text-center bg-orange-200 box-border h-100 w-100 p-4 border-4" id="projects">
+      <h1 className="mt-10 font-extrabold text-7xl">프로젝트들</h1>
+      <section className="mt-10">
+        <h1 className="font-bold text-4xl mt-10">포트폴리오</h1>
+        <h2 className="mt-5 text-3xl font-semibold">지금 보고 계시는 이 포트폴리오입니다.</h2>
+        <h3 className="mt-5"><span className="font-semibold my-10 text-2xl">기술 스택</span> <br /> Next.js + TypeScript로 개발했고 Tailwind CSS를 사용하였으며 Vercel로 배포했습니다.</h3>
+      </section>
     </div>
     </>
   );
