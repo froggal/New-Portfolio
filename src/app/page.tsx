@@ -60,17 +60,10 @@ export default function Home() {
       <h3 className="my-10 text-3xl font-semibold">학생 개발자</h3>
     </div>
     <div className="text-center bg-orange-200 box-border h-100 w-100 p-4 border-4" id="projects">
-      <h1 className="mt-10 font-extrabold text-7xl">프로젝트들</h1>
-      <section className="mt-10">
-        <h1 className="font-bold text-4xl mt-10">포트폴리오</h1>
-        <h2 className="mt-5 text-3xl font-semibold">지금 보고 계시는 이 포트폴리오입니다.</h2>
-        <h3 className="mt-5"><span className="font-semibold my-10 text-2xl">기술 스택</span> <br /> Next.js + TypeScript로 개발했고 Tailwind CSS를 사용하였으며 Vercel로 배포했습니다.</h3>
-      </section>
-      <section className="mt-10">
-        <h1 className="font-bold text-4xl mt-10">랜덤 닉네임 생성기</h1>
-        <h2 className="mt-5 text-3xl font-semibold"><a href="https://randomnick.vercel.app/">사용해보기</a> 랜덤으로 닉네임을 생성해 주는 웹페이지입니다.</h2>
-        <h3 className="mt-5"><span className="font-semibold my-10 text-2xl">기술 스택</span> <br /> HTML과 JavaScript로 개발했고 Vercel로 배포했습니다.</h3>
-      </section>
+      <h1 className="mt-10 font-extrabold text-5xl">프로젝트들</h1>
+      <a href=""><button className="my-10 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+      보러 가기!
+      </button></a>
     </div>
     </>
   );
