@@ -15,7 +15,16 @@ export default function Home() {
         <h1 className="mt-10 font-extrabold text-5xl">프로젝트들</h1>
         <Link href="/projects">
           <button className="my-10 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-            보러 가기!
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              className="bi bi-play-fill"
+              viewBox="0 0 16 16"
+            >
+              <path d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z" />
+            </svg>
           </button>
         </Link>
       </div>
