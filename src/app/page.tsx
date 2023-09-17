@@ -8,12 +8,12 @@ export default function Home() {
       <h2 className="my-10 text-4xl font-bold">김도언, KeyFrog</h2>
       <h3 className="my-10 text-3xl font-semibold">학생 개발자</h3>
     </div>
-    <Link href="/projects"><div className="text-center bg-orange-200 box-border h-100 w-100 p-4 border-4" id="projects">
+    <div className="text-center bg-orange-200 box-border h-100 w-100 p-4 border-4" id="projects">
       <h1 className="mt-10 font-extrabold text-5xl">프로젝트들</h1>
-      <button className="my-10 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+      <Link href="/projects"><button className="my-10 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
       보러 가기!
-      </button>
-    </div></Link>
+      </button></Link>
+    </div>
     </>
   );
 }
