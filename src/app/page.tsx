@@ -28,20 +28,6 @@ export default function Home() {
           </button>
         </Link>
       </div>
-      <div className="bg-gray-400 box-border h-100 w-100 p-4 border-4 text-center">
-        <p className="font-semibold my-5">
-          Copyright 2023 김 도언, All right reserved
-        </p>
-          <a href="mailto:kpjdev.21k@gmail.com" className="mr-5">
-            <i className="bi bi-envelope-fill"></i>
-          </a>
-          <a href="https://github.com/froggal" className="mr-5">
-            <i className="bi bi-github"></i>
-          </a>
-          <a href="https://keyfrog.tistory.com">
-            <i className="bi bi-book"></i>
-          </a>
-      </div>
     </>
   );
 }
