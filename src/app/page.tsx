@@ -28,6 +28,10 @@ export default function Home() {
           </button>
         </Link>
       </div>
+      <div className="bg-indigo-600 box-border h-100 w-100 p-4 border-4 text-center">
+        <h1 className="mt-10 font-extrabold text-5xl">기술 스택</h1>
+        <div className="rounded-full bg-blue-600">TypeScript</div>
+      </div>
     </>
   );
 }
