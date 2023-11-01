@@ -7,3 +7,18 @@
 .heading span {
   color: #0060ff;
 }
+
+.heading h2 {
+  font-weight: normal;
+}
+
+.heading {
+  font-family: 'Pretendard', sans-serif;
+  text-align: center;
+}
+
+.about {
+  font-family: 'Pretendard', sans-serif;
+  margin-left: 5%;
+  margin-top: 10%;
+}
