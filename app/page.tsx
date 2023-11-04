@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 export default function Home() {
   return (
-    <>
+    <main className={styles.main}>
       <div className={styles.heading}>
         <h1>
           Developer: <br /> <span>KeyFrog</span>;
@@ -36,6 +36,6 @@ export default function Home() {
           해당 프로젝트들은 <Link href="/projects">이곳에서</Link> 확인하실 수 있습니다.
         </p>
       </div>
-    </>
+    </main>
   );
 }

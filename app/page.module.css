@@ -13,19 +13,20 @@
 }
 
 .heading {
-  font-family: 'Pretendard', sans-serif;
   text-align: center;
 }
 
 .about {
-  font-family: 'Pretendard', sans-serif;
   margin-left: 5%;
   margin-top: 10%;
 }
 
 .projects {
-  font-family: 'Pretendard', sans-serif;
   margin-right: 5%;
   margin-top: 10%;
   text-align: right;
+}
+
+.main {
+  font-family: 'Pretandard', sans-serif;
 }
