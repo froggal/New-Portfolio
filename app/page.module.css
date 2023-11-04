@@ -1,32 +1,4 @@
-.heading h1 {
-  font-family: 'Source Code Pro', monospace;
-  text-align: center;
-  margin-top: 5%;
-  font-size: 4rem;
-}
-.heading span {
-  color: #0060ff;
-}
-
-.heading h2 {
-  font-weight: normal;
-}
-
-.heading {
-  text-align: center;
-}
-
-.about {
-  margin-left: 5%;
-  margin-top: 10%;
-}
-
-.projects {
-  margin-right: 5%;
-  margin-top: 10%;
-  text-align: right;
-}
-
-.main {
-  font-family: 'Pretandard', sans-serif;
+.centerpicture {
+  margin: auto;
+  display: block;
 }
