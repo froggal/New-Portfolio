@@ -30,6 +30,12 @@ export default function Home() {
           있어요.
         </p>
       </div>
+      <div className={styles.projects}>
+        <h1>진행한 프로젝트들</h1>
+        <p>
+          해당 프로젝트들은 <Link href="/projects">이곳에서</Link> 확인하실 수 있습니다.
+        </p>
+      </div>
     </>
   );
 }
