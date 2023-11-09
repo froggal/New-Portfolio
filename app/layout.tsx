@@ -21,6 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={gstyles.main}>
       <body className={inter.className}>{children}</body>
+      <hr />
       <div className={footer.main}>
         <div>
           <h1 className={footer.name}>KeyFrog</h1> <p>Copyright 2023. KeyFrog All rights reserved</p>
